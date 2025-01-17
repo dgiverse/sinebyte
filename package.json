@@ -1,0 +1,50 @@
+{
+  "name": "sinebyte",
+  "version": "2.3.0",
+  "description": "Next Js Multipurpose Landing & Admin Dashboard Template",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/bundle-analyzer": "^14.2.8",
+    "@next/react-refresh-utils": "^14.2.8",
+    "autoprefixer": "10.4.14",
+    "axios": "^1.7.9",
+    "browserslist": "^4.23.3",
+    "country-codes-list": "^1.6.11",
+    "cross-env": "^7.0.3",
+    "eslint": "8.46.0",
+    "eslint-config-next": "13.4.12",
+    "next": "^14.2.7",
+    "postcss": "^8.4.45",
+    "pure-react-carousel": "^1.30.1",
+    "react": "^18.3.1",
+    "react-18-image-lightbox": "^5.1.4",
+    "react-countup": "^6.5.3",
+    "react-dom": "^18.3.1",
+    "react-feather": "^2.0.10",
+    "react-icons": "^5.3.0",
+    "react-modal-video": "^2.0.2",
+    "react-responsive-masonry": "^2.3.0",
+    "react-router-dom": "^6.26.1",
+    "react-scroll": "^1.9.0",
+    "react-select": "^5.8.0",
+    "react-type-animation": "^3.2.0",
+    "sass": "^1.78.0",
+    "swiper": "^11.1.12",
+    "swr": "^2.2.5",
+    "tailwindcss": "^3.4.10",
+    "tiny-slider-react": "^0.5.7"
+  },
+  "browserslist": [
+    "chrome 64",
+    "edge 79",
+    "firefox 67",
+    "opera 51",
+    "safari 12"
+  ]
+}
