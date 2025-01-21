@@ -17,7 +17,7 @@ export default function JobFooter() {
                     width={138}
                     height={24}
                     className="mx-auto md:me-auto md:ms-0"
-                    alt=""
+                    alt="Sinebyte"
                   />
                 </Link>
               </div>

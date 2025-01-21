@@ -84,39 +84,39 @@ export const teams = [
 export const KeyFeatures = [
   {
     Icon: Icon.Monitor,
-    title: "Design & Develop App",
+    title: "AI-Driven Data Analytics",
   },
   {
     Icon: Icon.Heart,
-    title: "Test & Deploy Apps",
+    title: "Predictive Modeling For Decision Making",
   },
   {
     Icon: Icon.Eye,
-    title: "Easy-to-use",
+    title: "Keyword Extraction",
   },
   {
     Icon: Icon.Layout,
-    title: "Tailored your Business",
+    title: "Automation of workflows and processes",
   },
   {
     Icon: Icon.Feather,
-    title: "Low-code No-code app",
+    title: "Data Management and Analytics",
   },
   {
     Icon: Icon.Code,
-    title: "Get your apps up",
+    title: "Process Automation",
   },
   {
     Icon: Icon.UserCheck,
-    title: "Running 10X Faster",
+    title: "Enhanced Customer Interaction",
   },
   {
     Icon: Icon.Globe,
-    title: "Co-create your business apps",
+    title: "Predictive Maintenance",
   },
   {
     Icon: Icon.Settings,
-    title: "At single platform",
+    title: "Personalized Marketing",
   },
 ];
 export const clientsData = [

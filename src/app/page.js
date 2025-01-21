@@ -83,16 +83,16 @@ export default function Page() {
           <div className="relative grid lg:grid-cols-12 grid-cols-1 items-center mt-10 gap-[30px]">
             <div className="lg:col-span-7">
               <div className="lg:me-6 lg:text-start text-center">
-                <h1 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-6xl mb-5">
-                  Access powerful AI <br />
-                  For
+                <h1 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-4xl mb-5">
+                  Transform Your Enterprise with <br />
+                  the
                   <TypeAnimation
                     sequence={[
-                      " Ai Content",
+                      "  Power of  AI",
                       2000,
-                      " Blog Writing",
+                      " Power of AI",
                       2000,
-                      " Technical Writing",
+                      "   Power  of  AI",
                       2000,
                     ]}
                     wrapper="span"
@@ -102,8 +102,9 @@ export default function Page() {
                   />
                 </h1>
                 <p className="text-lg max-w-xl lg:ms-0 mx-auto">
-                  Sinebyte lets you transform ideas into powerful Enterprise
-                  applications that adapt to your business needs.
+                  Sinebyte empowers you to transform ideas into AI-driven
+                  enterprise applications, seamlessly adapting to your business
+                  needs.
                 </p>
 
                 <div className="subcribe-form mt-6 mb-3">
@@ -141,7 +142,7 @@ export default function Page() {
                     blurDataURL="/images/light-dash.png"
                     style={{ width: "1175px", height: "auto" }}
                     className="lg:max-w-none lg:ms-14"
-                    alt=""
+                    alt="sinebyte dash"
                   />
                 </div>
               </div>
@@ -171,10 +172,14 @@ export default function Page() {
               </span>
             </h1>
 
-            <p className="text-slate-400 max-w-xl mx-auto">
-              Transform your business and boost productivity with Sinebyte.
-              Effortlessly build Enterprise apps that keep pace with your
-              business rapid growth—all without writing a single line of code.
+            <p
+              className="text-slate-2
+            00 max-w-xl mx-auto"
+            >
+              Empower your team with the Sinebyte AI Platform, equipped with
+              advanced enterprise AI capabilities. Easily create custom apps to
+              drive innovation, streamline efficiency, and stay ahead in a
+              rapidly changing business world.
             </p>
           </div>
 
@@ -188,24 +193,38 @@ export default function Page() {
         </div>
       </section>
       <section className="pt-6">
-        <div className="container relative">
+        {/* <div className="container relative">
           <CompanyLogo />
-        </div>
+        </div> */}
       </section>
 
       <section className="relative md:py-24 py-16">
         <div className="container relative">
+          <div className="grid grid-cols-1 pb-8">
+            <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">
+              Sinebyte Platform : Empowering Enterprises with AI
+            </h3>
+
+            <p className="text-slate-400 max-w-xl">
+              Sinebyte harnesses AI to drive efficiency, innovation, and
+              customer satisfaction. Our platform addresses key enterprise needs
+              with cutting-edge solutions:
+            </p>
+          </div>
+
           <div className="grid md:grid-cols-3 grid-cols-1 shadow shadow-gray-300 dark:shadow-gray-500 rounded-lg md:divide-x-[1px] divide-y-[1px] divide-gray-200 dark:divide-gray-700">
             <div className="relative p-6 md:p-8">
               <i className="mdi mdi-account-search-outline bg-gradient-to-tl to-indigo-600 from-red-600 text-transparent bg-clip-text text-[45px]"></i>
 
               <h5 className="text-xl font-semibold my-5">
-                Search & Write Content
+                Data Management and Analytics
               </h5>
 
               <p className="text-slate-400">
-                If the distribution of letters and words is random, the reader
-                will not be distracted from making.
+                Sinebyte transforms data into actionable insights with
+                predictive analytics and real-time dashboards. We streamline
+                data handling, enabling smarter decisions and optimized
+                operations for competitive advantage.
               </p>
 
               <MdKeyboardArrowRight className="size-8 p-1 bg-indigo-600 text-white rounded-full flex justify-center items-center absolute md:top-2/4 md:-translate-y-2/4 -bottom-4 md:-end-0 end-2/4 ltr:translate-x-2/4 rtl:-translate-x-2/4 rtl:rotate-180 z-1" />
@@ -214,11 +233,13 @@ export default function Page() {
             <div className="relative p-6 md:p-8">
               <i className="mdi mdi-wallet-bifold-outline bg-gradient-to-tl to-indigo-600 from-red-600 text-transparent bg-clip-text text-[45px]"></i>
 
-              <h5 className="text-xl font-semibold my-5">Discribe Content</h5>
+              <h5 className="text-xl font-semibold my-5">Process Automation</h5>
 
               <p className="text-slate-400">
-                If the distribution of letters and words is random, the reader
-                will not be distracted from making.
+                Simplify operations with Sinebyte’s AI-driven automation. Our
+                RPA and IDP solutions handle tasks like invoicing and
+                compliance, cutting costs and freeing teams for strategic
+                priorities.
               </p>
 
               <MdKeyboardArrowRight className="size-8 p-1 bg-indigo-600 text-white rounded-full flex justify-center items-center absolute md:top-2/4 md:-translate-y-2/4 -bottom-4 md:-end-0 end-2/4 ltr:translate-x-2/4 rtl:-translate-x-2/4 rtl:rotate-180 z-1" />
@@ -227,18 +248,22 @@ export default function Page() {
             <div className="relative p-6 md:p-8">
               <i className="mdi mdi-home-plus-outline bg-gradient-to-tl to-indigo-600 from-red-600 text-transparent bg-clip-text text-[45px]"></i>
 
-              <h5 className="text-xl font-semibold my-5">Generate Content</h5>
+              <h5 className="text-xl font-semibold my-5">
+                Enhanced Customer Interaction
+              </h5>
 
               <p className="text-slate-400">
-                If the distribution of letters and words is random, the reader
-                will not be distracted from making.
+                Sinebyte’s AI tools—chatbots, virtual assistants, and
+                recommendation engines—deliver personalized customer
+                experiences. From 24/7 support to sentiment insights, we help
+                build loyalty and exceed expectations.
               </p>
             </div>
           </div>
         </div>
 
         <div className="container relative md:mt-24 mt-16">
-          <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
+          <div className="grid md:grid-cols-2 grid-cols-1 items-center">
             <div className="relative overflow-hidden rounded-lg border border-indigo-600/40 bg-indigo-600/10 dark:bg-indigo-600/20 lg:ps-12 ps-8 lg:pt-12 pt-8 lg:me-8">
               <Image
                 src="/images/dataform.png"
@@ -247,37 +272,37 @@ export default function Page() {
                 sizes="100vw"
                 style={{ width: "100%", height: "auto" }}
                 className="ltr:rounded-tl-lg rtl:rounded-tr-lg"
-                alt=""
+                alt="dataform"
               />
             </div>
 
             <div className="">
               <h3 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">
-                Dataform
+                AI-Driven Data Analytics & Insights
               </h3>
               <p className="text-slate-400 max-w-xl">
-                Our platform’s Data Form feature allows you to create custom
-                forms effortlessly without coding.With a drag-and-drop
-                interface, it streamlines data collection, validation, and
-                integration into your applications
+                AI-driven data analytics transforms raw data into powerful
+                insights. By uncovering hidden patterns and delivering real-time
+                intelligence, it empowers businesses to make data-driven
+                decisions that fuel growth and drive a competitive advantage.
               </p>
 
               <ul className="list-none text-slate-400 mt-4">
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />{" "}
-                  Simplify workflows
+                  Predictive analytics drive smarter decisions.
                 </li>
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />{" "}
-                  Reduce errors
+                  AI automation boosts efficiency.
                 </li>
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />{" "}
-                  Manage data efficiently all hassle-free
+                  Personalized insights enhance customer experience.
                 </li>
               </ul>
 
-              <div className="mt-4">
+              {/* <div className="mt-4">
                 <Link
                   href="#"
                   className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
@@ -285,7 +310,7 @@ export default function Page() {
                   Find Out More{" "}
                   <MdKeyboardArrowRight className="ms-1 text-lg" />
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -294,12 +319,21 @@ export default function Page() {
           <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
             <div className="relative order-1 md:order-2">
               <div className="relative overflow-hidden rounded-lg border border-indigo-600/40 bg-indigo-600/10 dark:bg-indigo-600/20 lg:pe-12 pe-8 lg:pt-12 pt-8 lg:ms-8">
-                <img
+                <Image
+                  src="/images/process.PNG"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: "100%", height: "auto" }}
+                  className="ltr:rounded-tl-lg rtl:rounded-tr-lg"
+                  alt="dataform"
+                />
+                {/* <img
                   src="/images/process.gif"
                   alt="loading..."
                   style={{ width: "100%", height: "auto" }}
                   className="ltr:rounded-tr-lg rtl:rounded-tl-lg"
-                />
+                /> */}
                 {/* <img
                   src="/images/process.gif"
                   alt="Description of the image"
@@ -311,31 +345,28 @@ export default function Page() {
 
             <div className="order-2 md:order-1">
               <h4 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">
-                Process
+                Predictive Modeling For Decision Making
               </h4>
               <p className="text-slate-400">
-                Automate complex workflows without code. Our platform Process
-                feature lets you design and automate processes with a simple
-                drag-and-drop interface. Integrates seamlessly with your data
-                and scales with your business. Streamline operations and reduce
-                manual work.
+                Elevate your business with Sinebyte AI platform, simplifying
+                predictive modeling with intuitive tools and real-time insights.
               </p>
               <ul className="list-none text-slate-400 mt-4">
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />{" "}
-                  Seamlessly integrate data
+                  Leverage advanced techniques for smarter.
                 </li>
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />
-                  Scale as your business grows
+                  Faster decisions.
                 </li>
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />{" "}
-                  Apps to keep your operations running smoothly
+                  Explore Sinebyte AI solutions now!
                 </li>
               </ul>
 
-              <div className="mt-4">
+              {/* <div className="mt-4">
                 <Link
                   href="#"
                   className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
@@ -343,7 +374,7 @@ export default function Page() {
                   Find Out More{" "}
                   <MdKeyboardArrowRight className="ms-1 text-lg" />
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -352,43 +383,42 @@ export default function Page() {
           <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
             <div className="relative overflow-hidden rounded-lg border border-indigo-600/40 bg-indigo-600/10 dark:bg-indigo-600/20 lg:ps-12 ps-8 lg:pt-12 pt-8 lg:me-8">
               <Image
-                src="/images/classic04.png"
+                src="/images/keyword.PNG"
                 width={0}
                 height={0}
                 sizes="100vw"
                 style={{ width: "100%", height: "auto" }}
                 className="ltr:rounded-tl-lg rtl:rounded-tr-lg"
-                alt=""
+                alt="app"
               />
             </div>
 
             <div className="">
               <h3 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">
-                App
+                Keyword Extraction
               </h3>
               <p className="text-slate-400 max-w-xl">
-                Our platform’s App feature allows you to create custom
-                applications tailored to your business needs without any coding.
-                With an intuitive interface and pre-built components, you can
-                design, deploy, and manage apps quickly and efficiently.
+                Sinebyte empowers businesses to unlock actionable insights from
+                diverse data sources using AI and NLP. By leveraging advanced
+                technologies.
               </p>
 
               <ul className="list-none text-slate-400 mt-4">
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />{" "}
-                  Streamline operations
+                  We uncover critical patterns and trends.
                 </li>
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />{" "}
-                  Enhance user experiences
+                  Enabling smarter decision-making.
                 </li>
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />{" "}
-                  Adapt to changing requirements
+                  Significantly enhancing operational efficiency.
                 </li>
               </ul>
 
-              <div className="mt-4">
+              {/* <div className="mt-4">
                 <Link
                   href="#"
                   className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
@@ -396,7 +426,7 @@ export default function Page() {
                   Find Out More{" "}
                   <MdKeyboardArrowRight className="ms-1 text-lg" />
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -406,43 +436,45 @@ export default function Page() {
             <div className="relative order-1 md:order-2">
               <div className="relative overflow-hidden rounded-lg border border-indigo-600/40 bg-indigo-600/10 dark:bg-indigo-600/20 lg:pe-12 pe-8 lg:pt-12 pt-8 lg:ms-8">
                 <Image
-                  src="/images/classic05.png"
+                  src="/images/workflow.PNG"
                   width={0}
                   height={0}
                   sizes="100vw"
                   style={{ width: "100%", height: "auto" }}
                   className="ltr:rounded-tr-lg rtl:rounded-tl-lg"
-                  alt=""
+                  alt="analytics"
                 />
               </div>
             </div>
 
             <div className="order-2 md:order-1">
               <h4 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">
-                Analytics
+                Automation of workflows and processes
               </h4>
               <p className="text-slate-400">
-                Our platforms Analytics feature empowers you to turn data into
-                actionable insights effortlessly. With intuitive dashboards and
-                customizable reports, you can visualize key metrics and track
-                performance in real time.
+                AI-powered automation streamlines workflows and processes by
+                eliminating repetitive tasks and reducing manual effort. It
+                enhances efficiency, accuracy, and scalability, allowing teams
+                to focus on high-value activities.
               </p>
               <ul className="list-none text-slate-400 mt-4">
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />{" "}
-                  Make informed decisions.
+                  Enhances workflows, reducing time and effort required for
+                  tasks.
                 </li>
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />
-                  Identify trends, and optimize processes.
+                  Improves precision, minimizing errors and inconsistencies.
                 </li>
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />{" "}
-                  All without the need for data analysis skills.
+                  Supports growth by enabling teams to handle larger workloads
+                  without compromising quality.
                 </li>
               </ul>
 
-              <div className="mt-4">
+              {/* <div className="mt-4">
                 <Link
                   href="#"
                   className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
@@ -450,7 +482,7 @@ export default function Page() {
                   Find Out More{" "}
                   <MdKeyboardArrowRight className="ms-1 text-lg" />
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -460,13 +492,12 @@ export default function Page() {
             <div className="lg:col-span-8 md:col-span-12">
               <div className="grid grid-cols-1 pb-8">
                 <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">
-                  AI Generate Content In Seconds
+                  Top Enterprise AI Use Cases Across Industries
                 </h3>
 
                 <p className="text-slate-400 max-w-xl">
-                  Launch your campaign and benefit from our expertise on
-                  designing and managing conversion centered Tailwind CSS v3.x
-                  html page.
+                  With Sinebyte, leverage AI to innovate, streamline, and excel.
+                  Partner with us to unlock growth and new possibilities.
                 </p>
               </div>
 
@@ -479,21 +510,21 @@ export default function Page() {
                       href="#"
                       className="title h5 text-lg font-medium hover:text-indigo-600"
                     >
-                      Plagiarism checker
+                      Predictive Maintenance (Manufacturing)
                     </Link>
                     <p className="text-slate-400 mt-3">
-                      The phrasal sequence of the is now so that many campaign
-                      and benefit
+                      AI-driven models analyze equipment data to predict
+                      failures, reducing downtime and maintenance costs.
                     </p>
 
-                    <div className="mt-5">
+                    {/* <div className="mt-5">
                       <Link
                         href="#"
                         className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
                       >
                         Read More <FaArrowRight className="ms-2 text-[10px]" />
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
 
@@ -505,21 +536,21 @@ export default function Page() {
                       href="#"
                       className="title h5 text-lg font-medium hover:text-indigo-600"
                     >
-                      Content Generator
+                      Personalized Marketing (Retail)
                     </Link>
                     <p className="text-slate-400 mt-3">
-                      The phrasal sequence of the is now so that many campaign
-                      and benefit
+                      AI tools provide personalized recommendations and targeted
+                      promotions, boosting customer engagement and sales.
                     </p>
 
-                    <div className="mt-5">
+                    {/* <div className="mt-5">
                       <Link
                         href="#"
                         className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
                       >
                         Read More <FaArrowRight className="ms-2 text-[10px]" />
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
 
@@ -530,21 +561,22 @@ export default function Page() {
                       href="#"
                       className="title h5 text-lg font-medium hover:text-indigo-600"
                     >
-                      Search Engine Optimization
+                      Fraud Detection (Finance)
                     </Link>
                     <p className="text-slate-400 mt-3">
-                      The phrasal sequence of the is now so that many campaign
-                      and benefit
+                      Machine learning algorithms detect anomalies in
+                      transactions, minimizing risks and preventing financial
+                      fraud.
                     </p>
 
-                    <div className="mt-5">
+                    {/* <div className="mt-5">
                       <Link
                         href="#"
                         className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
                       >
                         Read More <FaArrowRight className="ms-2 text-[10px]" />
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
 
@@ -555,21 +587,22 @@ export default function Page() {
                       href="#"
                       className="title h5 text-lg font-medium hover:text-indigo-600"
                     >
-                      Digital name generator
+                      Demand Forecasting (Supply Chain)
                     </Link>
                     <p className="text-slate-400 mt-3">
-                      The phrasal sequence of the is now so that many campaign
-                      and benefit
+                      AI-powered analytics optimize inventory management and
+                      predict demand fluctuations, ensuring supply chain
+                      efficiency.
                     </p>
 
-                    <div className="mt-5">
+                    {/* <div className="mt-5">
                       <Link
                         href="#"
                         className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
                       >
                         Read More <FaArrowRight className="ms-2 text-[10px]" />
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -584,21 +617,21 @@ export default function Page() {
                       href="#"
                       className="title h5 text-lg font-medium hover:text-indigo-600"
                     >
-                      Ad Targeting tips
+                      Virtual Health Assistants (Healthcare)
                     </Link>
                     <p className="text-slate-400 mt-3">
-                      The phrasal sequence of the is now so that many campaign
-                      and benefit
+                      AI chatbots and assistants provide 24/7 patient support,
+                      schedule management, and preliminary diagnosis guidance.
                     </p>
 
-                    <div className="mt-5">
+                    {/* <div className="mt-5">
                       <Link
                         href="#"
                         className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
                       >
                         Read More <FaArrowRight className="ms-2 text-[10px]" />
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
 
@@ -609,21 +642,22 @@ export default function Page() {
                       href="#"
                       className="title h5 text-lg font-medium hover:text-indigo-600"
                     >
-                      Content Rewriter
+                      Talent Acquisition (Human Resources)
                     </Link>
                     <p className="text-slate-400 mt-3">
-                      The phrasal sequence of the is now so that many campaign
-                      and benefit
+                      AI streamlines recruitment by analyzing resumes,
+                      automating candidate matching, and predicting employee
+                      success.
                     </p>
 
-                    <div className="mt-5">
+                    {/* <div className="mt-5">
                       <Link
                         href="#"
                         className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
                       >
                         Read More <FaArrowRight className="ms-2 text-[10px]" />
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -2570,7 +2604,7 @@ export default function Page() {
         {/* <MobileApp /> */}
       </section>
       <Footer />
-      <CookieModal />
+      {/* <CookieModal /> */}
       <Switcher />
     </>
   );

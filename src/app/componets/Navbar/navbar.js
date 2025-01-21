@@ -78,14 +78,14 @@ export default function Navbar(props) {
                 className="l-dark"
                 width={168}
                 height={34}
-                alt=""
+                alt="logo"
               />
               <Image
                 src="/images/logo-light.svg"
                 className="l-light"
                 width={168}
                 height={34}
-                alt=""
+                alt="Signbyte logo"
               />
             </span>
             <Image
@@ -93,7 +93,7 @@ export default function Navbar(props) {
               width={168}
               height={34}
               className="hidden dark:inline-block"
-              alt=""
+              alt=" Signbyte logo"
             />
           </Link>
         ) : (
@@ -103,14 +103,14 @@ export default function Navbar(props) {
               width={168}
               height={34}
               className="inline-block dark:hidden"
-              alt=""
+              alt=" Signbyte logo"
             />
             <Image
               src="/images/logo-light.svg"
               width={168}
               height={34}
               className="hidden dark:inline-block"
-              alt=""
+              alt=" Signbyte logo"
             />
           </Link>
         )}
@@ -215,14 +215,14 @@ export default function Navbar(props) {
               {/* <span className="menu-arrow"></span> */}
             </li>
 
-            <li
+            {/* <li
               className={`${
                 ["/blog"].includes(manu) ? "active" : ""
               } has-submenu parent-parent-menu-item`}
             >
               <Link href="/blog">Blog</Link>
-              {/* <span className="menu-arrow"></span> */}
-            </li>
+              
+            </li> */}
 
             <li
               className={`${

@@ -28,7 +28,7 @@ export default function SmallFooter() {
                   width={138}
                   height={24}
                   className="mx-auto md:me-auto md:ms-0"
-                  alt=""
+                  alt="sinebyte"
                 />
               </Link>
             </div>

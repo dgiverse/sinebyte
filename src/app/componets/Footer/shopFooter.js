@@ -31,7 +31,7 @@ export default function ShopFooter() {
                       src="/images/logo-light.svg"
                       width={138}
                       height={24}
-                      alt=""
+                      alt="sinebyte"
                     />
                   </Link>
                   <p className="mt-6 text-gray-300">

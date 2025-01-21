@@ -34,8 +34,8 @@ export default function Page() {
             </h3>
 
             <p className="text-slate-300 text-lg max-w-xl mx-auto">
-              Start working with Tailwind CSS that can provide everything you
-              need to generate awareness, drive traffic, connect.
+              Sinebyte empowers you to transform ideas into AI-driven enterprise
+              applications, seamlessly adapting to your business needs.
             </p>
           </div>
         </div>
@@ -126,9 +126,10 @@ export default function Page() {
                 </h3>
 
                 <p className="text-slate-400 max-w-xl">
-                  Sinebyte lets you transform ideas into powerful Enterprise
-                  applications that adapt to your business needs. One platform.
-                  No coding. Completely hassle-free.
+                  Empower your team with the Sinebyte AI Platform, equipped with
+                  advanced enterprise AI capabilities. Easily create custom apps
+                  to drive innovation, streamline efficiency, and stay ahead in
+                  a rapidly changing business world.
                 </p>
 
                 <div className="mt-6">
@@ -143,9 +144,9 @@ export default function Page() {
             </div>
           </div>
         </div>
-        <div className="container relative mt-8">
+        {/* <div className="container relative mt-8">
           <CompanyLogo />
-        </div>
+        </div> */}
       </section>
 
       <KeyFeature btnFill={true} />

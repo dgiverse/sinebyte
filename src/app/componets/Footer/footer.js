@@ -72,11 +72,11 @@ export default function Footer() {
     //   title: "Project",
     //   liClass: "mt-[10px]",
     // },
-    {
-      route: "/blog",
-      title: "Blog",
-      liClass: "mt-[10px]",
-    },
+    // {
+    //   route: "/blog",
+    //   title: "Blog",
+    //   liClass: "mt-[10px]",
+    // },
     {
       route: "/faqs",
       title: "FAQ",
@@ -97,13 +97,13 @@ export default function Footer() {
                         src="/images/logo-light.svg"
                         width={300}
                         height={100}
-                        alt=""
+                        alt="sinebyte"
                       />
                     </Link>
                     <p className="mt-6 text-gray-300">
-                      Sinebyte lets you transform ideas into powerful Enterprise
-                      applications that adapt to your business needs. One
-                      platform. No coding. Completely hassle-free.
+                      Sinebyte empowers you to transform ideas into AI-driven
+                      enterprise applications, seamlessly adapting to your
+                      business needs.
                     </p>
                     <ul className="list-none mt-5 space-x-1 space-y-1">
                       {/* <li className="inline">
@@ -135,7 +135,7 @@ export default function Footer() {
                       </li> */}
                       <li className="inline">
                         <Link
-                          href="http://linkedin.com/company/shreethemes"
+                          href="#"
                           target="_blank"
                           className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
                         >
@@ -144,7 +144,7 @@ export default function Footer() {
                       </li>
                       <li className="inline">
                         <Link
-                          href="https://www.facebook.com/shreethemes"
+                          href="#"
                           target="_blank"
                           className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
                         >
@@ -153,7 +153,7 @@ export default function Footer() {
                       </li>
                       <li className="inline">
                         <Link
-                          href="https://www.instagram.com/shreethemes/"
+                          href="#"
                           target="_blank"
                           className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
                         >
@@ -162,7 +162,7 @@ export default function Footer() {
                       </li>
                       <li className="inline">
                         <Link
-                          href="https://twitter.com/shreethemes"
+                          href="#"
                           target="_blank"
                           className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
                         >
