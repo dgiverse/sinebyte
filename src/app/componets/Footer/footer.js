@@ -92,7 +92,7 @@ export default function Footer() {
               <div className="py-[60px] px-0">
                 <div className="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
                   <div className="lg:col-span-4 md:col-span-12">
-                    <Link href="/#" className="text-[22px] focus:outline-none">
+                    <Link href="#" className="text-[22px] focus:outline-none">
                       <Image
                         src="/images/logo-light.svg"
                         width={300}

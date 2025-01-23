@@ -71,7 +71,7 @@ export default function Navbar(props) {
     >
       <div className="container relative">
         {navClass === "nav-light" ? (
-          <Link className="logo" href="/index">
+          <Link className="logo" href="/">
             <span className="inline-block dark:hidden">
               <Image
                 src="/images/logo-dark.svg"
@@ -97,7 +97,7 @@ export default function Navbar(props) {
             />
           </Link>
         ) : (
-          <Link className="logo" href="/index">
+          <Link className="logo" href="/">
             <Image
               src="/images/logo-dark.svg"
               width={168}

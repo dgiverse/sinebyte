@@ -191,6 +191,15 @@ export default function Page() {
                         href="mailto:muru@dgiverse.com,kris@dgiverse.com"
                         className="relative inline-block font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500"
                       >
+                        {item.contact1}
+                      </a>
+                    </div>
+                    <div className="mt-5">
+                      <a
+                        href="https://www.google.com/maps/place/Chennai,+Tamil+Nadu,+India/@13.078316,80.26046,13z/data=!4m6!3m5!1s0x3a5265ea4f7d3361:0x6e61a70b6863d433!8m2!3d13.0843007!4d80.2704622!16zL20vMGM4dGs?hl=en-GB&entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D"
+                        target="_blank"
+                        className="relative inline-block font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500"
+                      >
                         {item.contact}
                       </a>
                     </div>
@@ -302,19 +311,8 @@ export default function Page() {
                               setCountry(countryName);
                             }}
                           >
-                            {/* {Object.entries(countryCodeList).map(
-                              ([code, label]) => {(
-
-                                <option key={code} value={code}>
-                                  {label}
-                                </option>
-                              )}
-                            )} */}
                             {Object.entries(countryCodeList).map(
                               ([code, label]) => {
-                                // console.log(code);
-                                //console.log(label);
-                                // Log code to the console
                                 return (
                                   // Return the JSX
                                   <option

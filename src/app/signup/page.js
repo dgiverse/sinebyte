@@ -6,6 +6,8 @@ import Switcher from "../componets/switcher";
 import axios from "axios";
 import { useRouter } from "next/navigation";
 import getEnvConfig from "../componets/getenv";
+import PhoneInputComponent from "../componets/PhoneInput";
+import CountryCodeSelector from "../componets/CountryCodeSelector";
 
 export default function Page() {
   const [name, setName] = useState("");
@@ -175,7 +177,6 @@ export default function Page() {
                   )}
                 </div>
                 <br />
-
                 {/* Email Field */}
                 <div className="mb-4p-6 bg-white dark:bg-slate-900 shadow-md dark:shadow-gray-800">
                   <div className="relative bg-inherit">
@@ -214,17 +215,15 @@ export default function Page() {
                   )}
                 </div>
                 <br />
-
-                {/* Phone Field */}
-                <div className="mb-4p-6 bg-white dark:bg-slate-900 shadow-md dark:shadow-gray-800">
+                {/* <div className="mb-4p-6 bg-white dark:bg-slate-900 shadow-md dark:shadow-gray-800">
                   <div className="relative bg-inherit flex">
-                    {/* Country Dropdown */}
                     <select
                       value={selectedCountryCode}
                       onChange={(e) => setSelectedCountryCode(e.target.value)}
                       className="peer h-10 w-20 rounded-l-lg border border-gray-300 bg-transparent px-2 text-sm text-gray-900 ring-2 ring-gray-500 focus:border-indigo-600 focus:outline-none dark:border-gray-600 dark:text-slate-200 dark:ring-gray-700 dark:focus:border-indigo-600 dark:bg-slate-900"
                     >
-                      <option value="+93">🇦🇫 +93 - Afghanistan</option>
+                      
+                      {/* <option value="+93">🇦🇫 +93 - Afghanistan</option>
                       <option value="+355">🇦🇱 +355 - Albania</option>
                       <option value="+213">🇩🇿 +213 - Algeria</option>
                       <option value="+1-684">🇦🇸 +1-684 - American Samoa</option>
@@ -446,10 +445,11 @@ export default function Page() {
                       <option value="+681">🇻🇺 +681 - Wallis and Futuna</option>
                       <option value="+967">🇾🇪 +967 - Yemen</option>
                       <option value="+260">🇿🇲 +260 - Zambia</option>
-                      <option value="+263">🇿🇼 +263 - Zimbabwe</option>
+                      <option value="+263">🇿🇼 +263 - Zimbabwe</option> 
 
-                      {/* Add more country codes and names here */}
+                      
                     </select>
+                    
 
                     <input
                       id="phone"
@@ -475,10 +475,9 @@ export default function Page() {
                       Phone is required
                     </p>
                   )}
-                </div>
+                </div> */}
+                <CountryCodeSelector />
                 <br />
-
-                {/* Company Name Field */}
                 <div className="mb-4p-6 bg-white dark:bg-slate-900 shadow-md dark:shadow-gray-800">
                   <div className="relative bg-inherit">
                     <input
@@ -533,7 +532,6 @@ export default function Page() {
                     {!isChecked && "Please accept our terms and Conditions"}
                   </p>
                 </div>
-
                 {/* <div className="flex items-center justify-between mt-6">
                   <button
                     type="submit"

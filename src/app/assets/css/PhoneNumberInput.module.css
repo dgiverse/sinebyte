@@ -1,0 +1,31 @@
+/* styles/PhoneNumberInput.module.css */
+.input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.lightMode {
+  background-color: #fff;
+  color: #000;
+}
+
+.darkMode {
+  background-color: #333;
+  color: #fff;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  display: block;
+}

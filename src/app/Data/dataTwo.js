@@ -1290,7 +1290,7 @@ export const contactData = [
     icon: FaRegEnvelope,
     title: "Email",
     desc: "The phrasal sequence of the is now so that many campaign and benefit",
-    contact: "contact@sinebyte.com",
+    contact1: "contact@sinebyte.com",
   },
   {
     icon: RiMapPinLine,

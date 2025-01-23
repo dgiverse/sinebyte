@@ -320,7 +320,7 @@ export default function Page() {
             <div className="relative order-1 md:order-2">
               <div className="relative overflow-hidden rounded-lg border border-indigo-600/40 bg-indigo-600/10 dark:bg-indigo-600/20 lg:pe-12 pe-8 lg:pt-12 pt-8 lg:ms-8">
                 <Image
-                  src="/images/process.png"
+                  src="/images/process.PNG"
                   width={0}
                   height={0}
                   sizes="100vw"
@@ -383,7 +383,7 @@ export default function Page() {
           <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
             <div className="relative overflow-hidden rounded-lg border border-indigo-600/40 bg-indigo-600/10 dark:bg-indigo-600/20 lg:ps-12 ps-8 lg:pt-12 pt-8 lg:me-8">
               <Image
-                src="/images/keyword.png"
+                src="/images/keyword.PNG"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -436,7 +436,7 @@ export default function Page() {
             <div className="relative order-1 md:order-2">
               <div className="relative overflow-hidden rounded-lg border border-indigo-600/40 bg-indigo-600/10 dark:bg-indigo-600/20 lg:pe-12 pe-8 lg:pt-12 pt-8 lg:ms-8">
                 <Image
-                  src="/images/workflow.png"
+                  src="/images/workflow.PNG"
                   width={0}
                   height={0}
                   sizes="100vw"
