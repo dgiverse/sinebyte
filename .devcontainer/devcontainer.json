@@ -3,6 +3,6 @@
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "remoteUser": "root",
   "containerUser": "root",
-  "postCreateCommand": "sudo bash /workspace/sinebyte/setup-restrictions.sh",
+  "postCreateCommand": "sudo bash /workspaces/sinebyte/setup-restrictions.sh",
   "features": {}
 }
