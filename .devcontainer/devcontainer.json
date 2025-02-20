@@ -1,0 +1,10 @@
+{
+  "name": "Secure Codespace",
+  "image": "ubuntu:latest",
+  "remoteUser": "developer",
+  "containerUser": "developer",
+  "features": {
+    "docker-in-docker": "latest"
+  },
+  "postCreateCommand": "bash /workspace/setup-restrictions.sh"
+}
