@@ -6,5 +6,5 @@
   "features": {
     "docker-in-docker": "latest"
   },
-  "postCreateCommand": "bash /workspace/setup-restrictions.sh"
+  "postCreateCommand": "sudo bash /workspace/setup-restrictions.sh"
 }
